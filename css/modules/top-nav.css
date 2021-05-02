@@ -1,0 +1,93 @@
+/*
+Error: Undefined variable: "$color-1".
+        on line 34 of scss/modules/top-nav.scss
+
+29: 		height:70px;
+30: 		position:relative;
+31: 		max-width: 100%;
+32: 		.active > a{
+33: 			background:transparent;
+34: 			color:$color-1;
+35: 			font-weight:bold;
+36: 			border-bottom:1px solid $color-1
+37: 		}
+38: 		li {
+39: 			float:left;
+
+Backtrace:
+scss/modules/top-nav.scss:34
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/juanarciniega/.rvm/gems/ruby-2.2.1@global/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$color-1\".\A         on line 34 of scss/modules/top-nav.scss\A \A 29: 		height:70px;\A 30: 		position:relative;\A 31: 		max-width: 100%;\A 32: 		.active > a{\A 33: 			background:transparent;\A 34: 			color:$color-1;\A 35: 			font-weight:bold;\A 36: 			border-bottom:1px solid $color-1\A 37: 		}\A 38: 		li {\A 39: 			float:left;"; }

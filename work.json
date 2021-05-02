@@ -1,0 +1,102 @@
+[
+  {
+    "class":"fx",
+    "name": "FX",
+    "logo": "images/project-logos/fx.png",
+    "screenshot":"images/screenshots/fx.gif",
+    "company": "BLITZ",
+    "url": "http://www.fxnetworks.com/",
+    "project":"Create multiple sites for the many TV Shows on FX Networks.",
+    "team": "This project was done while I was employed at Blitz Digital Agency. The team size would vary between 3 - 6 members.",
+    "role": "I was in charge of building out new templates for each new show. We worked with an MVC framework. Css was handled with Sass. I was also in charge of maintaining the sites and updating each show page as new episodes would air. Content text was handled with Json and XML."
+  },
+  {
+    "class":"kaiser",
+    "name": "Kaiser Permanente",
+    "logo": "images/project-logos/kaiser.png",
+    "screenshot":"images/screenshots/kaiser.gif",
+    "company": "BLITZ",
+    "url": "https://healthy.kaiserpermanente.org/",
+    "project":"Create a new site for Kaiser Permanente",
+    "team": "This project was done while I was employed at Blitz Digital Agency. The team size was 4 members.",
+    "role": "I was in charge of converting PhotoShop PSD's into a custom a WordPress Theme built with Zurb Foundation. I also had to build a styleguide in Sass. Finally I was tasked with creating custom carousels and accordians using jQuery."
+  },
+  {
+    "class":"dole",
+    "name": "Dole",
+    "logo": "images/project-logos/dole.png",
+    "screenshot":"images/screenshots/dole.gif",
+    "company": "BLITZ",
+    "url": "https://auth.dole.com/peelthelove",
+    "project":"Create a landing page for Dole's 'Peel the Love' campaign.",
+    "team": "This project was done while I was employed at Blitz Digital Agency. I was the only person working on this project as it was a simple single landing page.",
+    "role": "I was in charge of building the landing page. "
+  },
+  {
+    "class":"gbr",
+    "name": "Go Banking Rates",
+    "logo": "images/project-logos/gbr.png",
+    "screenshot":"images/screenshots/gbr.gif",
+    "company": "ConsumerTrack",
+    "url": "https://www.gobankingrates.com/",
+    "project":"Create a custom WordPress blog that drives traffic to our landing pages",
+    "team": "This project was done while I was employed at ConsumerTrack. The team size was 6 members.",
+    "role": "I was in charge of converting PhotoShop PSD's into a custom WordPress blog that I built with BootStrap."
+  },
+  {
+    "class":"pmt",
+    "name": "Plan My Trip",
+    "logo": "images/project-logos/pmt.png",
+    "screenshot":"images/screenshots/pmt.gif",
+    "company": "Oversee.Net",
+    "url": "http://planmytrip.com/flights/",
+    "project":"Create a site that helps visitors search flight and car rental prices.",
+    "team": "This project was done while I was employed at Oversee.Net. The team size was 3 members.",
+    "role": "I was in charge of converting PhotoShop PSD's into a custom website that was built using React JS. I was tasked with building an entire Sass system that broke down all stylings into components."
+  },
+  {
+    "class":"lf",
+    "name": "Low Fares",
+    "logo": "images/project-logos/lf.png",
+    "screenshot":"images/screenshots/lf.gif",
+    "company": "Oversee.Net",
+    "url": "http://www.lowfares.com/",
+    "project":"Create a site that helps visitors search flight, hotel, car rental, and cruise prices.",
+    "team": "This project was done while I was employed at Oversee.Net. The team size was 3 members.",
+    "role": "I was in charge of converting PhotoShop PSD's into a custom website that was built using React JS. I was tasked with building an entire Sass system that broke down all stylings into components."
+  },
+  {
+    "class":"ap",
+    "name": "Airport Parking",
+    "logo": "images/project-logos/apk.png",
+    "screenshot":"images/screenshots/apk.gif",
+    "company": "Oversee.Net",
+    "url": "http://www.airportparking.com/",
+    "project":"Create a site that helps visitors search flight, hotel, car rental, and cruise prices.",
+    "team": "This project was done while I was employed at Oversee.Net. The team size was 3 members.",
+    "role": "I was in charge of converting PhotoShop PSD's into a custom website that was built using React JS. I was tasked with building an entire Sass system that broke down all stylings into components."
+  },
+  {
+    "class":"rc",
+    "name": "Resume Coder",
+    "logo": "images/project-logos/rc.png",
+    "screenshot":"images/screenshots/rc.gif",
+    "company": "Just for fun",
+    "url": "http://www.resumecoder.com/",
+    "project":"I wanted to create a tool to help users build a resume and save it as a PDF. I built it using javascript and jQuery",
+    "team": "This project was a personal project developed on my own.",
+    "role": "Build out a resume builder."
+  },
+  {
+    "class":"ep",
+    "name": "Easy Peasy Slide",
+    "logo": "images/project-logos/ep.png",
+    "screenshot":"images/screenshots/ep.gif",
+    "company": "Just for fun",
+    "url": "http://www.juans.work/easy-peasy/",
+    "project":"I wanted to create a carousel that would be brainless to implement for the user. I ended up creating a jQuery plugin that allowed a user to create a carousel by simply adding an ID to the UL containing all the images. I then published it as a jQuery plugin available through npm, github and as a download.",
+    "team": "This project was a personal project developed on my own.",
+    "role": "Build a jQuery plugin"
+  }
+  
+]

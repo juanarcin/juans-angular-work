@@ -1,0 +1,119 @@
+// home-background styles
+
+.home-page{
+	background:#000;
+}
+
+.intro{
+	 width:100vw;
+	 text-align:center;
+	 color: #ccc;
+	 font-size:10vw;
+
+
+	 h4{
+	 	font-family: $thick-font;
+	 	// font-size:90px;
+	 	font-size:20vw;
+	 	font-weight:bold;
+	 	padding-top:30px;
+	 	padding-top:125px;
+	 	color:$color-1;
+
+	 }
+}
+.hidden-text{
+	opacity:0;
+	margin-top:-50px;
+	display:block;
+	font-size:6vw;
+	 font-family: $accent-font;
+	 i{
+	 	color: $color-1;
+	 }
+	&.bringIn{
+		opacity:1;
+		margin-top:0;
+		color:#ccc;
+		// font-size:25px;
+		font-size:6vw;
+		white-space:nowrap;
+		-webkit-transition: all 1500ms ease;
+		-webkit-transition: all 1500ms ease;
+		    -moz-transition: all 1500ms ease;
+		         -o-transition: all 1500ms ease;
+		              transition: all 1500 ease;
+	}
+}
+.video-background {
+	display:none;
+}
+
+
+
+@media screen and (min-width: 600px) {
+	.video-background {
+		background: #000;
+		position: absolute;
+		top: 0; 
+		right: 0; 
+		bottom: 0; 
+		left: 0;
+		z-index: -99;
+		display:block;
+	}
+	.video-overlay{
+		position:absolute;
+		background:#000;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		z-index:1;
+		opacity:1;
+		transition: opacity 3.5s ease;
+		&.bringIn{
+			opacity:0;
+			transition: opacity 3.5s ease;
+		}
+	}
+	video#bgvid { 
+	    position: fixed;
+	    top: 50%;
+	    left: 50%;
+	    min-width: 100%;
+	    min-height: 100%;
+	    width: auto;
+	    height: auto;
+	    z-index: -100;
+	    -ms-transform: translateX(-50%) translateY(-50%);
+	    -moz-transform: translateX(-50%) translateY(-50%);
+	    -webkit-transform: translateX(-50%) translateY(-50%);
+	    transform: translateX(-50%) translateY(-50%);
+	    background-size: cover; 
+	}
+	.hidden-text{
+		color:#000;
+		font-size: 25px;
+		&.bringIn{
+			color:#000;
+			font-size: 25px;
+		}
+	}
+	.intro{
+		color:#000;
+		font-size: 60px; 
+		 h4{
+			color:$color-1;
+		 	font-size:90px;
+		 }
+	}
+}
+@media (min-aspect-ratio: 16/9) {
+  	.video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  	.video-foreground { width: 300%; left: -100%; }
+}
+
+
