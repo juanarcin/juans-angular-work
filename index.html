@@ -1,1 +1,42 @@
-index.html
+
+<html class="no-js" lang="en-us" dir="ltr" ng-app="portfolio">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juans Work</title>
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Poller+One|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+   <base href="#/">
+</head>
+<body>
+    <nav  ng-controller="topNav">
+          <ul class="menu">
+                <li class="home-link" ng-class="{active : $route.current.activetab === 'home'}"><a href="#/"  ng-click="activeMenu= 'home'">home</a></li>
+                <li class="about-link" ng-class="{active : $route.current.activetab === 'about'}"><a href="#/about"  ng-click="activeMenu= 'about'">about</a></li>
+                <li class="work-link" ng-class="{active : $route.current.activetab === 'work'}"><a href="#/work"  ng-click="activeMenu= 'work'">work</a></li>
+                <li class="contact-link" ng-class="{active : $route.current.activetab === 'contact'}"><a href="#/contact"  ng-click="activeMenu= 'contact'">contact</a></li>
+            </ul> 
+    </nav>
+
+    <div  ng-view class="page {{pageClass}}"></div>
+
+    <footer>
+        Juans Arciniega's Portfolio  | <a href="https://www.linkedin.com/in/juanarciniega" target="blank" class="li"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> | <a href="#/contact"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    </footer>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-aria.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
